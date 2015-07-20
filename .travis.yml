@@ -5,4 +5,10 @@ rvm:
   - 2.2
 addons:
   code_climate:
-    repo_token: 50c14bea760ea608dbb161a93023a1e2d0f44b55e433852503afd3f5de7cb3c5
+    repo_token: <%= ENV['CODE_CLIMATE_TOKEN'] %>
+deploy:
+  provider: rubygems
+  api_key: <%= ENV['RUBYGEMS_API_TOKEN'] %>
+  gem: robert2d-robot
+  on:
+    tags: true
