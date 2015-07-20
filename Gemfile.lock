@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    robot (0.1.0)
+    robert2d-robot (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -90,7 +90,7 @@ DEPENDENCIES
   guard (~> 2.12.8)
   guard-rspec (~> 4.6.2)
   rake (~> 10.4.2)
-  robot!
+  robert2d-robot!
   rspec (~> 3.3.0)
   rubocop (~> 0.32.1)
   simplecov (~> 0.10.0)

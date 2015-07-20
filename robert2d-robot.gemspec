@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'robot/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'robot'
+  spec.name          = 'robert2d-robot'
   spec.version       = Robot::VERSION
   spec.authors       = ['Dave Robertson']
   spec.email         = ['dave.andrew.robertson.nz@gmail.com']
