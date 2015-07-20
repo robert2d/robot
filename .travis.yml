@@ -3,9 +3,6 @@ rvm:
   - 2.0
   - 2.1
   - 2.2
-addons:
-  code_climate:
-    repo_token: <%= ENV['CODE_CLIMATE_TOKEN'] %>
 deploy:
   provider: rubygems
   api_key: <%= ENV['RUBYGEMS_API_TOKEN'] %>
