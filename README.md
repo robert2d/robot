@@ -7,6 +7,12 @@ See instructions.txt for the specification. If run on OSX you can turn your spea
 
 ## INSTALLING
 
+### As a Gem
+    gem install robert2d-robot
+    robot
+    robot < test_data.txt
+
+### Manually
     git clone git://github.com/robert2d/rea-robot.git
     cd rea-robot
     gem install bundler
@@ -16,7 +22,7 @@ See instructions.txt for the specification. If run on OSX you can turn your spea
 
 ### Interactive:
 
-    $ ./robot.rb
+    $ bundle exec ./bin/robot
     PLACE 1,2,EAST
     MOVE
     MOVE
@@ -26,8 +32,8 @@ See instructions.txt for the specification. If run on OSX you can turn your spea
 
 ### Passing a file:
 
-    $ ./robot.rb test_data.txt
+    $ bundle exec ./bin/robot < test_data.txt
 
-## TESTS
+## Test, Coverage, and rubocop
 
-    $ rspec
+    $ bundle exec rake
