@@ -5,7 +5,8 @@ rvm:
   - 2.2
 deploy:
   provider: rubygems
-  api_key: <%= ENV['RUBYGEMS_API_TOKEN'] %>
+  api_key:
+    secure: "Na5Uj9v8LjyM1B1PX1VbBaepM4kBot91mVrUWbYD22l1gatZIbLiEGyWQqkneydBhYJjXNC5wRnjtdVAMDEvf3k5YxC7OcV8ha1tEtlMbFALArXnSRxJJ7oyZ5NerfS3p1k32Re8W3bxlqkrjkIg+Lo8HhoO9GJnNoB0iOzT6MfKllf/Q/zh6phMWv+P0sNEsgljJuiVT8k78pGWnfpWKbDMdn/MsMLfYScwI3qVMk2dvQEvd9r4PsFsJogaTT/LB0vgpQ/WJ6TePwjGfGofflHsYiI61LLU2uZwhd+liaCXk1dZc8wwb2FZiDFsCHE943lwEPwVOjrzgBtuJjuun9EE2VvtRiKiB3RTKasBkauHoZicuVeBIsoFqM3eeB2CCmaxn6MSJ8tXIfu00uOMfCug+Wa/RMYuQQPJkPkJuVwGHbCvFd94dF2tHnnh3mxquYhgxfXUqsrq8exJJELSnoHzfPR9uyMbqB9akBdBHXhOticY49D16O4qKo2V57EzQbPmhjV0mWeOKnFBZDN5nPftgOtdX///JpeMIiim/3FryKg8LKlWigOXFaVgWMGBuGYIfgFijjYdjlhu8cPfboCajLWGEnF4iUVjaCd2SmawFJqhzXwjMV2SOt0VcPneRk4SPA1cdXGALIsG1YqevJUmE8bOnuhZRSQywpZoZRE="
   gem: robert2d-robot
   on:
     tags: true
