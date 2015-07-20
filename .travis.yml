@@ -1,12 +1,14 @@
 language: ruby
 rvm:
-  - 2.0
-  - 2.1
-  - 2.2
+- 2.0
+- 2.1
+- 2.2
 deploy:
   provider: rubygems
   api_key:
-    secure: "Na5Uj9v8LjyM1B1PX1VbBaepM4kBot91mVrUWbYD22l1gatZIbLiEGyWQqkneydBhYJjXNC5wRnjtdVAMDEvf3k5YxC7OcV8ha1tEtlMbFALArXnSRxJJ7oyZ5NerfS3p1k32Re8W3bxlqkrjkIg+Lo8HhoO9GJnNoB0iOzT6MfKllf/Q/zh6phMWv+P0sNEsgljJuiVT8k78pGWnfpWKbDMdn/MsMLfYScwI3qVMk2dvQEvd9r4PsFsJogaTT/LB0vgpQ/WJ6TePwjGfGofflHsYiI61LLU2uZwhd+liaCXk1dZc8wwb2FZiDFsCHE943lwEPwVOjrzgBtuJjuun9EE2VvtRiKiB3RTKasBkauHoZicuVeBIsoFqM3eeB2CCmaxn6MSJ8tXIfu00uOMfCug+Wa/RMYuQQPJkPkJuVwGHbCvFd94dF2tHnnh3mxquYhgxfXUqsrq8exJJELSnoHzfPR9uyMbqB9akBdBHXhOticY49D16O4qKo2V57EzQbPmhjV0mWeOKnFBZDN5nPftgOtdX///JpeMIiim/3FryKg8LKlWigOXFaVgWMGBuGYIfgFijjYdjlhu8cPfboCajLWGEnF4iUVjaCd2SmawFJqhzXwjMV2SOt0VcPneRk4SPA1cdXGALIsG1YqevJUmE8bOnuhZRSQywpZoZRE="
+    secure: GBnhPCF3UiTHXVjmVl/U4LOtRYKBg3iluB2YYWZuBt8LPRSdi41VI6TEVhJ9S7XpJQhmt9Nq3PGr2b74fqmBGAmSAaCKfnHHLrc5SqKdzc0zd9h5VORHGmUJWp/w1Qq/96fnpMfbNqlBIdAs1JaXVuwV0H8KAeTRASzLNjfahoeZR1uWzKLsvgHmJ17qAC/v3mZBfaYY6nnf1GBOs9N6WebaR/MC8SvTxmiLldl/QVuMUdiSJURlJ0dJnHMLq9P1LB0t4ECNLmC7hNKfnTJ3+CPq5Ow7go3Yt1/46liaa0edkXja05VHaBijEQColQqNkjfxL/Xb/n/QnHGIcZ4Au961Nw57/CZLmJ/U6bRXjamtkodKI8eYAS/3bAdVHr/266ZAHXj5jGqzjpIPqDueuOAR+b1iNlyCw5kKEcm2plPLIxslUmrZIPH4VHcPHvXcal46AX6BH399Mv2RZ9iyxyTZlrPQErl+urN8Gu+Zp2kmjtaA5QrUwaS50uj8eRL/tSz7mtrQn/2lw6JPcB1tzla5LpslDD39OZFa5Ejs8vNzbrYpSda5IY1bBjpqZ+O/3T1s54bqVNxWTLiGLXwWnexLldc6L5u+fgsUK0saQ8KlUQtSIVW+iVcVcWBhgkFN522S8EofF79AX2MtVJkw7679YywuLAplPbLyreunIsk=
   gem: robert2d-robot
+  gemspec: robot.gemspec
   on:
     tags: true
+    repo: robert2d/robot
