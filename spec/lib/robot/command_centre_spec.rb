@@ -70,7 +70,7 @@ describe Robot::CommandCentre do
 
         context 'when not placed' do
           it 'delegates to robot' do
-            expect(IO).to receive(:popen)
+            expect(Robot::CommandCentre.instance).to receive(:say)
             expect(subject.robot.table).to receive(:placed?)
             expect(subject.robot).not_to receive(:move)
             subject.execute
