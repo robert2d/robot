@@ -5,9 +5,9 @@
 # window and then manually running `bundle exec rspec spec/<spec>` in
 # another.
 group :tests do
-  guard :rspec, cmd: "rspec --color" do
+  guard :rspec, cmd: 'rspec --color' do
     watch(%r{^spec/.+_spec\.rb$})
-    watch('spec/spec_helper.rb')                        { "spec/" }
+    watch('spec/spec_helper.rb')                        { 'spec/' }
     watch(%r{^lib/(.+)\.rb$})                           { |m| "spec/#{m[1]}_spec.rb" }
   end
 end

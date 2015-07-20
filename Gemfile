@@ -1,7 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'rspec'
-gem 'simplecov'
-gem 'guard'
-gem 'guard-spork'
-gem 'guard-rspec'
+# Specify your gem's dependencies in robot.gemspec
+gemspec

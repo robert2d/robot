@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'robot'
+
+# rubocop:disable Lint/AssignmentInCondition
+while command = gets
+  Robot::CommandCentre.instance.parse_and_execute(command)
+end
+# rubocop:enable Lint/AssignmentInCondition
